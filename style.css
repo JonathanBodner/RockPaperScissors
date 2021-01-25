@@ -3,13 +3,11 @@
 }
 
 #header {
-    background-color: aquamarine;
+    background-color:#95C5A3;
 }
-
-#gameInfo {
-    font-size: 40px;
+body{
+    background-color:#D6CDB9;
 }
-
 * {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     font-size: 20px;
@@ -17,4 +15,12 @@
     font-variant: normal;
     font-weight: 700;
     line-height: 22px;
+}
+
+#player {
+    font-size: 50px;
+}
+
+#computer {
+    font-size: 50px;
 }

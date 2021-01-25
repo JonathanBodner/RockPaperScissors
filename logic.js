@@ -1,4 +1,5 @@
 var hand = ["rock", "paper", "scissors"]; //cases
+var playerScore = 0, cpuScore = 0;
 
 function rock() {
     $("#player").html("<i class='symbol far fa-hand-rock'></i>");
@@ -31,11 +32,15 @@ function rockPaperScissors() {
     }
 }
 function userLoss() {
-    $("#result").html("<h1 class ='alert alert-sucess'>You lost. :(</h1>")
+    $("#result").html("<div class ='alert alert-danger' role='alert'>You lost.</div>")
+    cpuScore++;
+    $("#cpuScore").html(cpuScore)
 }
 function userWin() {
-    $("#result").html("<h1 class ='alert alert-sucess'>You won! :D</h1>")
+    $("#result").html("<div class ='alert alert-success' role='alert'>You won!</div>")
+    playerScore++;
+    $("#playerScore").html(playerScore)
 }
 function tie() {
-    $("#result").html("<h1 class ='alert alert-sucess'>Tie.</h1>")
+    $("#result").html("<div class ='alert alert-info' role='alert'>Tie.</div>")
 }
