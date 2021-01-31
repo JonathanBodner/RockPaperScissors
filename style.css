@@ -10,7 +10,7 @@ body{
 }
 * {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -18,9 +18,9 @@ body{
 }
 
 #player {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 #computer {
-    font-size: 50px;
+    font-size: 100px;
 }
